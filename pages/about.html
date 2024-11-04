@@ -1,0 +1,29 @@
+{% extends 'base.html'%}
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+   
+</head>
+<body>
+    {% block contant%}
+        {% for x in prod %}
+        <h1> x.name </h1>
+        <h1> x.price </h1>
+        <h1> x.comment </h1>
+
+        {% endfor%}
+    {% endblock %}
+</body>
+</html>
+
+
+
+
+
+
+
